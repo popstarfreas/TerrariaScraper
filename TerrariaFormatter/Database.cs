@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using MongoDB.Driver;
 using MongoDB.Bson;
 
-namespace TerrariaFormatter
+namespace TerrariaScraper
 {
     public class Database
     {

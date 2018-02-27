@@ -1,7 +1,7 @@
 ﻿using System;
 using Terraria;
 
-namespace TerrariaFormatter
+namespace TerrariaScraper
 {
     class Program
     {
@@ -14,11 +14,11 @@ namespace TerrariaFormatter
             Terraria.Main.player[Terraria.Main.myPlayer] = player;
 
             // Necessary for projectile 221
-            Terraria.Main.rand = new Random();
+            Terraria.Main.rand = new Terraria.Utilities.UnifiedRandom();
 
             database = new Database();
             insertProjectiles();
-            string line = Console.ReadLine();
+            insertWeapons();
         }
 
         static void insertProjectiles()
