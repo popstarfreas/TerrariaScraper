@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrariaFormatter", "TerrariaFormatter\TerrariaFormatter.csproj", "{212E1402-AD10-451C-8BEC-4C4CE0ACC17E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerrariaScraper", "TerrariaScraper\TerrariaScraper.csproj", "{212E1402-AD10-451C-8BEC-4C4CE0ACC17E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
