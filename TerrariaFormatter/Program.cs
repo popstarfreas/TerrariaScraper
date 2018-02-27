@@ -17,8 +17,8 @@ namespace TerrariaScraper
             Terraria.Main.rand = new Terraria.Utilities.UnifiedRandom();
 
             database = new Database();
-            insertProjectiles();
             insertWeapons();
+            insertProjectiles();
         }
 
         static void insertProjectiles()
@@ -53,9 +53,9 @@ namespace TerrariaScraper
                     item.SetDefaults(i);
                     if (item.damage > 0 && (item.ranged || item.magic || item.melee) && !item.notAmmo)
                     {
-                        Console.WriteLine(item.name + ": " + item.damage);
-                        Console.WriteLine(item.ammo);
-                        //database.AddItem(item);
+                        // Console.WriteLine(item.name + ": " + item.damage);
+                        // Console.WriteLine(item.ammo);
+                        database.insertWeapon(item);
                     }
                 }
 
